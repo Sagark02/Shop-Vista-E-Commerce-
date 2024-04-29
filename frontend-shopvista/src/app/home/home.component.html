@@ -1,0 +1,103 @@
+
+<div id="myCarousel" class="carousel slide  mb-6" data-bs-ride="carousel">
+  <div class="carousel-indicators ">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+  </div>
+  <div class="carousel-inner num ">
+    <div class="carousel-item first">
+      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+      <div class="container ">
+        <div class="carousel-caption text-start ">
+
+          <!-- <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p> -->
+          <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p> -->
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item active second">
+      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+      <div class="container ">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item third">
+      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+      <div class="container ">
+        <div class="carousel-caption text-end">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<hr class="featurette-divider" style="color:firebrick">
+<!--  -->
+<!--  -->
+<div class="row featurette ">
+<div class="col-md-7 " >
+  <h2 class="featurette-heading fw-normal lh-1 firstphone"><b>POCO X6 Neo 5G (Astral Black, 128 GB)  (8 GB RAM).</b> <span class="text-body-secondary"><br>1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories.</span></h2>
+  <p class="lead"><br><br><b>Highlights</b><br>8 GB RAM | 128 GB ROM | Expandable Upto 1 TB
+    <br>16.94 cm (6.67 inch) Full HD+ Display
+    <br>108MP + 2MP | 16MP Front Camera
+    <br>5000 mAh Battery
+    <br>Dimensity 6080 Processor.</p>
+</div>
+<div class="col-md-5 photo1">
+  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+</div>
+</div>
+
+<hr class="featurette-divider">
+<!-- 
+<div class="row featurette">
+<div class="col-md-7 order-md-2 photo2">
+
+  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title></svg>
+</div>
+<div class="col-md-5 order-md-1 photo3">
+  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title></svg>
+</div>
+</div>
+
+ <hr class="featurette-divider">
+
+<div class="row featurette">
+ <div class="col-md-7">
+  <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+  <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+</div>
+ <div class="col-md-5">
+  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+</div>
+</div> -->
+
+
+<div class="container">
+  <div class="container text-center">
+    <h1 class="display-5"></h1>
+  </div>
+  <div class="row">
+    <div class="col-md-3 mb-4" *ngFor="let product of products">
+      <div class="card p-2" [routerLink]="['/product', product.id]" style="cursor: pointer;">
+        <img [src]="product.imgUrl" id="productImg" alt="{{ product.name }}">
+        <div class="card-body p-2">
+          <h6 class="card-title">{{ product.name }}</h6>
+          <p class="card-text">₹ {{ product.price }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+
+#productImg {
+    max-height: 200px;
+    width: auto;
+    object-fit: contain;
+}
+
+.mb-6{
+    margin-top: 10px;
+}
+
+.first{
+
+    background-image: url("https://img.freepik.com/free-vector/electronics-store-template-design_23-2151143824.jpg?t=st=1713359023~exp=1713362623~hmac=84d1759f134c193e28535c8b0738b4ae07b67d59cb4338ff83651d931a8c92aa&w=1380");
+    padding-bottom: 350px;
+    background-size: cover;
+  }
+  
+  
+  
+  .second{
+    background-image: url("https://img.freepik.com/premium-psd/smart-watch-product-sale-facebook-cover-web-banner-template_161398-312.jpg?w=1380");
+    padding-bottom: 350px;
+    background-size: cover;
+  }
+  
+  .third{
+    background-image: url("https://img.freepik.com/free-psd/flat-design-sale-template_23-2149955855.jpg?w=1380&t=st=1713356166~exp=1713356766~hmac=2001fabcd9d64af07c7907df13be844858d33541092cbf85166136d001e2923c");
+    padding-bottom: 350px;
+    background-size: cover;
+  
+  }
+  
+  .row{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .num{
+  padding-bottom: 10px;
+  
+  }
+  
+  .heading{
+    background-size: cover;
+  }
+  
+  .firstphone{
+  margin-left: 20px;
+  }
+  
+  .lead{
+    margin-left: 100px;
+  }
+  .photo1{
+    background-image: url("https://static.toiimg.com/thumb/resizemode-4,msid-108464027,imgsize-200,width-600/108464027.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  

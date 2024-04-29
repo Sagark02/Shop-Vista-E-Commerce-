@@ -1,0 +1,15 @@
+.fixed-top{
+    background-color:rgb(223, 134, 61);
+    margin-top: 10px;
+    height: 50px;
+}
+
+.name{
+ font-size: 40px;
+ color: rgb(240, 235, 228);
+
+}
+
+.active{
+    color: antiquewhite;
+}

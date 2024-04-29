@@ -1,0 +1,21 @@
+.form-control{
+    
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #3931318a;
+    border-style: double;
+    background-color: rgb(250, 243, 234);
+    
+}
+
+
+.container{
+    color: rgb(18, 17, 17);
+}
+
+.btn{
+background-color: rgb(190, 94, 53);
+border-color: #3931318a;
+width: 100px;
+font-size: larger;
+}
